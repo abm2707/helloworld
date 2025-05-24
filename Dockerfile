@@ -1,4 +1,4 @@
 FROM openjdk:17-slim
 WORKDIR /app
-COPY HelloWorld.class .
+COPY HelloworldApplication.class .
 CMD ["java", "HelloWorld"]
